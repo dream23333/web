@@ -1,0 +1,304 @@
+/*created by Ellick*/
+body
+	{
+		background-color:#FFB6C1; /*temp*/
+		background-image:url(images/cooktownorchids2.png);
+		/*background-repeat:no-repeat;
+		background-position:centre-right;*/
+		font-family:Batang, Century, Times New Roman, serif;
+		background-attachment:fixed;
+		font-size:12pt;
+		color:#ffffff;
+		text-align:justify;
+		
+		
+	}
+	
+#bigcontainer
+	{
+		background-color:#73182C;
+		width:780px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+#header
+	{
+		background-color:#FF0000; /*temp*/
+		width:780px;
+		height:115px;
+		padding-top:35px;
+		background-image:url(images/blended-banner.png);
+	}
+	
+#menu
+	{
+		background-color:#008080; /*temp*/
+		height:30px;
+		margin-top:10px;
+		margin-bottom:10px;
+		width:780px;
+	}
+	
+#menu table
+	{
+		border-style:solid;
+		border-color:#990034;
+		border-width:2px;
+		border-collapse:collapse;
+		height:30px;
+		width:100%;
+		padding:5px;
+	}
+	
+#menu td
+	{
+		border-style:solid;
+		border-color:#990034;
+		border-width:2px;
+		height:30px;
+		text-align:center;
+	}
+#main1
+	{
+		background-color:#00ff00; /*temp*/
+		height:335px;
+	}
+	
+#main2container
+	{
+		background: #8d4181; /* Old Browsers */
+		background: -webkit-linear-gradient(top,#8d4181,#73182c); /*Safari 5.1-6*/
+		background: -o-linear-gradient(top,#8d4181,#73182c); /*Opera 11.1-12*/
+		background: -moz-linear-gradient(top,#8d4181,#73182c); /*Fx 3.6-15*/
+		background: linear-gradient(to bottom, #8d4181, #73182c); /*Standard*/
+	}
+
+#main2container padding
+	{
+	margin-top:0px;
+	margin-bottom:0px;
+	
+	}
+	
+	
+#main2a
+	{
+		height:140px;/*temp*/
+		width:350px;
+		float:left;
+		padding:20px;
+		border-width:2px;
+		border-right-style:dashed;
+		border-right-color:#7FA500;
+	}
+	
+#main2b
+	{
+		height:140px;/*temp*/
+		width:350px;
+		margin-left:390px;
+		padding:20px;
+	}
+	
+#main3
+	{
+		width:740px;
+		padding:20px;
+		/*border-radius:20px;*/
+	}
+	
+.skff
+	{
+		display:block;
+		margin-left:auto;
+		margin-right:auto;	
+	}
+	
+/*experiment float
+#main3 img
+	{
+		display:block;
+		float:left;
+		margin-right:20px;
+	
+	}
+	*/
+
+
+#main4
+	{
+		padding:20px;
+	}
+	
+
+	
+#footer
+	{
+		height:40px;
+		padding-top:20px;
+		padding-bottom:20px;
+		padding-left:250px;
+		padding-right:250px;
+		clear:both;
+	}
+#footer img
+	{
+		vertical-align:middle;
+	}
+	
+span
+	{
+		color:#7FA500;
+		font-weight:bold;
+	}
+
+h2
+	{
+		font-size:20pt;
+		text-align:center;
+		
+	
+	}
+	
+h3
+	{
+		font-size:16pt;
+		text-align:left;
+		margin-bottom:0px;
+	}
+	
+ul 
+	{
+	    list-style-type:square;
+		margin-top:5px;
+		
+	}
+	
+#main4 table
+	{
+		border-style:solid;
+		border-color:#000000;
+		border-width:2px;
+		border-collapse:collapse;
+		margin-left:auto;
+		margin-right:auto;
+		background-color:#ffffff;
+		color:#73182c;
+		font-size:14pt;
+		font-weight:bold;
+		text-align:left;
+	}
+#main4 td
+	{
+	
+		border-style:solid;
+		border-color:#000000;
+		border-width:2px;
+		padding:10px 5px 10px 5px;
+	
+	}
+	
+/*styles for gallery page*/
+
+#gallerymenu
+	{
+		padding:10px;
+	
+	}
+	
+#gallerymenu table
+	{
+		padding-bottom:2px;
+		margin-top:2px;
+	}
+	
+#gallerymenu img
+	{
+		padding-bottom:2px;
+		border:1px solid #ffffff;
+	}
+	
+
+#main
+	{
+	height:300px;
+	overflow:hidden;
+	
+	}
+.para
+	{
+	text-align:center;
+	
+	}
+.xieti
+	{
+		font-style:italic;
+
+	}
+	
+.listcircle
+	{
+		list-style-type:circle;
+		list-style-image:url(sunny.png);
+
+	}
+	
+.sangxinbingkuang
+	{
+		background-color:#eed6af;
+		text-align:right;
+	}
+.woc
+	{
+		text-align:center;
+		font-size:20pt;
+		font-weight:bold;
+		background-color:#eed6af;
+	}
+	
+.lianjie
+	{
+		margin-left:auto;
+		margin-right:auto;
+		
+	
+	}
+	
+a:link
+	{
+		color:#ffffff;
+		text-decoration:none;
+	}
+
+a:visited
+	{
+		color:#000000;
+	}	
+a:hover
+	{	
+		color:#7fa500;
+		text-decoration:underline;
+
+	}
+a:active
+	{
+		color:#008222;
+	}
+	
+#menu a:hover 
+	{	
+		color:#00ff00;
+		text-decoration:underline;
+		
+	}
+	
+#gallerymenu a:hover  img
+	{	
+		border-color:#ffff00;
+	}
+	
+#arrow
+	{
+	vertical-align:middle;
+	}

@@ -1,0 +1,76 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Feedback</title>
+		<link rel="stylesheet" href="sample-form.css">
+		<script src="sample-form.js"></script>
+		<meta name="author" content="David Fenton">
+		<meta name="robots" content="index, follow">
+	</head>
+	
+	<body>
+		<div id="success" class="hidden">
+			<h1>Success. Thank you for your support</h1>
+		</div>
+		
+		<form id="formOne">
+			<h1>Please fill in my survey</h1>
+			<p>
+				<strong>eMail:</strong> 
+				<input type="text" id="email" value="" placeholder="Email Address"> 
+				<span class="error" id="emailError"></span>
+			</p>
+			
+			<p>
+				<strong>Age:</strong> 
+				<input type="number" id="amount" value="0" min="0" max="200"> 
+				<span class="error" id="amountError"></span>
+			</p>
+			
+			<p>
+				<strong>Favourite trave:</strong>
+				<input type="radio" name="payment" value="CC">Credit Card
+				<input type="radio" name="payment" value="DC">Debit Card
+				<input type="radio" name="payment" value="PP">PayPal 
+				<span class="error" id="paymentError"></span>
+			</p>
+
+			<p>
+				<strong>Where did you hear about us?</strong>
+				<select id="hearAbout">
+					<option value="Choose">Choose...</option>
+					<option value="Newspaper">Newspaper</option>
+					<option value="TV">Television</option>
+					<option value="Mouth">Word of Mouth</option>
+					<option value="Search">Search Engine</option>
+				</select>
+				<span class="error" id="hearAboutError"></span>
+			</p>
+			
+			<p>
+				<strong>Gender:</strong>
+				<input type="radio" id="genderMale" name="gender"  value="M"> Male
+				<input type="radio" id="genderFemale" name="gender" value="F"> Female
+				<span class="error" id="genderError"></span>
+			</p> 
+
+			<p>
+				<strong>Tell us suggestion:</strong><br>
+				<textarea id="comments" cols="40" rows="4"></textarea>
+				<span class="error" id="commentError"></span>
+			</p>
+
+			<p>
+				<input type="checkbox" name="cbTerms" id="cbTerms" value="Terms and Conditions">
+				<label for="cbTerms"><strong>I have read the Terms and Conditions</strong></label>
+				<span class="error" id="termsError"></span>
+			</p>
+
+			<input type="button" value="Send Data" onclick="validate();">
+			<input type="reset" value="Clear Form">
+		</form>
+
+	</body>
+</html>
